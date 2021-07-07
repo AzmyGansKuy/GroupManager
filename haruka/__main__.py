@@ -20,7 +20,7 @@ from haruka.modules.helper_funcs.misc import paginate_modules
 from haruka.modules.translations.strings import tld, tld_help 
 from haruka.modules.connection import connected
 
-PM_START = ""┗┓ Haii My Name is {} ┏┛
+PM_START = ""(https://telegra.ph/file/e7c77dd60cb73f1bf2b8a.jpg)┗┓ Haii My Name is {} ┏┛
 
 GUA HADIR UNTUK MELINDUNGI WANITA DARI COWO STRESS!
 ━━━━━━━━━━━━━━━
