@@ -20,20 +20,22 @@ from haruka.modules.helper_funcs.misc import paginate_modules
 from haruka.modules.translations.strings import tld, tld_help 
 from haruka.modules.connection import connected
 
-PM_START = """👋🏻 Hallo, Nama saya {} Saya Telah Di Rancang Khusus Oleh Seseorang Dengan
-Segabut Mungkin, Dan Saya Bisa Memutarkan Music Di Vcg Groups Anda.
+PM_START = ""┗┓ Haii My Name is {} ┏┛
 
-Managed With ☕ by [Alahsiamy](https://t.me/LordGanss10)
-┈───────────────────┈
-☑️ Saya memiliki banyak fitur Seperti
-
-🔘 Mute Pengguna (Jadikan Saya Admin)
-🔘 Ban Pengguna (Jadikan Saya Admin)
-🔘 Set Welcome Dengan Keren
-🔘 Menjaga Grup Di Malam Hari
-🔘 Tidak Ada Yang Bisa Mengirim Tautan
-┈───────────────────┈
-☑️ tekan /help Jika Membutuhkan Bantuan Saya
+GUA HADIR UNTUK MELINDUNGI WANITA DARI COWO STRESS!
+━━━━━━━━━━━━━━━
+Bot untuk Mengelola Grup Anda dengan Simple dan Mudah!
+Saya Memiliki Banyak Fitur Praktis 
+┏━━━━━━━━━━━━━━
+┣• Flood Control.
+┣• Warning System.
+┣• Predetermined Filters.
+┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
+┗━━━━━━━━━━━━━━
+❃ Managed With ☕️ By : [Alahsiamy](https://t.me/LordGanss10
+❃ Thanks to ❤️ Team : [Team](https://t.me/SujandraAsissten)
+━━━━━━━━━━━━━━━
+Gunakanlah Saya Untuk Mengelola Dan Menjaga Grup Anda Dengan Baik!
 """
 
 
