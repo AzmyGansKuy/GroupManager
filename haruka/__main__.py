@@ -20,7 +20,7 @@ from haruka.modules.helper_funcs.misc import paginate_modules
 from haruka.modules.translations.strings import tld, tld_help 
 from haruka.modules.connection import connected
 
-PM_START = "┗┓ Haii My Name is {} ┏┛
+PM_START = "┗┓ Haii My Name is 𝘼𝙎𝙏𝙍𝙊𝙉𝙊𝙏 𝙈𝘼𝙉𝘼𝙂𝙀𝙍 ┏┛
 
 GUA HADIR UNTUK MELINDUNGI WANITA DARI COWO STRESS!
 ━━━━━━━━━━━━━━━
@@ -35,7 +35,7 @@ Saya Memiliki Banyak Fitur Praktis
 ❃ Managed With ☕️ By : [Alahsiamy](https://t.me/LordGanss10
 ❃ Thanks to ❤️ Team : [Team](https://t.me/SujandraAsissten)
 ━━━━━━━━━━━━━━━
-Gunakanlah Saya Untuk Mengelola Dan Menjaga Grup Anda Dengan Baik!
+Gunakanlah Saya Untuk Menjaga Dan Mengelola Grup Anda Dengan Baik!
 """
 
 
@@ -153,9 +153,10 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START
 
-    keyboard = [[InlineKeyboardButton(text="🇮🇳 Language", callback_data="set_lang_")]]
+    keyboard = [[InlineKeyboardButton(text="🇮🇩 Indonesia", callback_data="set_lang_")]]
     keyboard += [[InlineKeyboardButton(text="🛠 Reporting", callback_data="cntrl_panel_M"), 
         InlineKeyboardButton(text="❔ Help", callback_data="help_back")]]
+    
 
     update.effective_message.reply_text(PM_START.format(escape_markdown(first_name), bot.first_name), reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
 
@@ -191,7 +192,7 @@ def control_panel(bot, update):
     if M_match:
         text = "*Control panel* 🛠"
 
-        keyboard = [[InlineKeyboardButton(text="👤 My settings", callback_data="cntrl_panel_U(1)")]]
+        keyboard = [[InlineKeyboardButton(text="👤 Settings Saya.", callback_data="cntrl_panel_U(1)")]]
 
         #Show connected chat and add chat settings button
         conn = connected(bot, update, chat, user.id, need_admin=False)
